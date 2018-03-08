@@ -2,7 +2,7 @@
 <head>
 	<head> 
 	<meta charset="TUF-8">
-	<title>${title}</title>
+	<title>${titulo}</title>
 	</head>
 	<body>
 	

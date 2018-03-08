@@ -3,7 +3,7 @@
 <#include "./header.ftl">
 <body>
   
-  <form action="/home" method="post">
+  <form action="/userinfo" method="post">
   <div>
     <label>Nombre</label>
     <input type="text" name="nombre/"

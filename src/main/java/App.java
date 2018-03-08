@@ -1,8 +1,7 @@
 import static spark.Spark.*;
 import java.util.HashMap;
 import java.util.Map;
-
-
+import freemarker.core.ReturnInstruction.Return;
 import spark.ModelAndView;
 import spark.template.freemarker.FreeMarkerEngine;
 public class App {
@@ -18,6 +17,8 @@ public class App {
         model.put("titulo", "Datos");
         return new ModelAndView(model, "casa.ftl");
         }, new FreeMarkerEngine());
+        
+       
         
         get("/home", (req , res) ->{
         	Map<String, Object> model = new HashMap<>();
