@@ -19,6 +19,10 @@ public String getApellido() {
 public void setApellido(String apellido) {
 	this.apellido = apellido;
 }
+public Object getInfo() {
+	// TODO Auto-generated method stub
+	return this.nombre+this.apellido;
+}
 
 
 
